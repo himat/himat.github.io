@@ -3,15 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://himat.github.io/categories/</loc>
+    <loc>http://himat.github.io/questions/</loc>
   </url>
   
   <url>
     <loc>http://himat.github.io/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://himat.github.io/values/</loc>
+  </url>
+  
+  <url>
+    <loc>http://himat.github.io/10/</loc>
+  </url>
+  
+  <url>
+    <loc>http://himat.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://himat.github.io/solarized-dark/</loc>
   </url>
   
   <url>
     <loc>http://himat.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://himat.github.io/true/</loc>
   </url>
   
 </urlset>

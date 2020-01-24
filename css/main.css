@@ -257,6 +257,18 @@ ul {
     max-height: 15px;
 }
 
+.footer nav ul svg {
+    max-height: 15px;
+}
+
+.nav {
+    line-height: 0px;
+}
+
+.footer .nav {
+    line-height: 1.6;
+}
+
 .section .section-header {
     font-size: 0.75rem;
     font-weight: 600;
