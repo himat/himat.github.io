@@ -22,3 +22,7 @@
 .margin-top {
     margin-top: 6em;
 }
+
+.grecaptcha-badge {
+    display:none !important;
+}
