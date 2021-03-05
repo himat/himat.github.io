@@ -25,9 +25,21 @@
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://himat.github.io/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://himat.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://himat.github.io/css/custom.css" />
+	
+
+
 
 	
 	<script src="https://himat.github.io/js/main.js"></script>
+
+	      <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-recaptcha.js"></script>
+      <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-embed.js"></script>
+      <link
+        rel="stylesheet"
+        href="https://emailoctopus.com/bundles/emailoctopuslist/css/1.6/form.css"
+      />
+
 </head>
 
 
@@ -68,7 +80,7 @@
 
 
       
-      <h1 class="page-title">All posts</h1>
+      <h2 class="page-title">All posts</h2>
       
 
       <ul class="posts"><li class="post">
@@ -77,6 +89,66 @@
             >Mar 3, 2020</span
           >
         </li></ul>
+      <hr class="margin-top" />
+      <div
+  class="emailoctopus-form-wrapper emailoctopus-form-centered null email-subscribe-form-wrapper"
+  style="
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(26, 26, 26);
+  "
+>
+  <div class="email-subscribe">
+    Receive email notifications for new posts (I might publish a post once every
+    few months)
+  </div>
+  <div class="emailoctopus-success-message"></div>
+  <div class="emailoctopus-error-message"></div>
+  <form
+    action="https://emailoctopus.com/lists/202cfeb0-7d25-11eb-a3d0-06b4694bee2a/members/embedded/1.3s/add"
+    method="post"
+    data-message-success="Thanks for subscribing!"
+    data-message-missing-email-address="Your email address is required."
+    data-message-invalid-email-address="Your email address looks incorrect, please try again."
+    data-message-bot-submission-error="This doesn't look like a human submission."
+    data-message-consent-required="Please check the checkbox to indicate your consent."
+    data-message-invalid-parameters-error="This form has missing or invalid fields."
+    data-message-unknown-error="Sorry, an unknown error has occurred. Please try again later."
+    class="emailoctopus-form email-signup-form"
+    data-sitekey="6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6"
+  >
+    <div class="emailoctopus-form-row email-form-row">
+      <input
+        id="field_0"
+        name="field_0"
+        type="email"
+        placeholder="Email address"
+        required="required"
+      />
+    </div>
+    <div aria-hidden="true" class="emailoctopus-form-row-hp">
+      <input
+        type="text"
+        name="hpc4b27b6e-eb38-11e9-be00-06b4694bee2a"
+        tabindex="-1"
+        autocomplete="nope"
+      />
+    </div>
+    <div class="emailoctopus-form-row-subscribe">
+      <input type="hidden" name="successRedirectUrl" />
+      <button
+        type="submit"
+        style="
+          background-color: rgb(224, 224, 224);
+          color: rgb(0, 0, 0);
+          font-family: inherit;
+        "
+      >
+        Subscribe
+      </button>
+    </div>
+  </form>
+</div>
+
     </div>
 
     <div class="footer wrapper">

@@ -1,7 +1,24 @@
-a {
-    color: #111;
+.email-subscribe {
+    margin: 0px;
 }
-.nav {
-    line-height: 0;
-    color: #333;
+
+.email-signup-form {
+    margin-top: 0px;
+}
+
+.email-subscribe-form-wrapper {
+    max-width: 100% !important;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.email-form-row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 8px 0px !important;
+
+}
+
+.margin-top {
+    margin-top: 6em;
 }
