@@ -26,3 +26,13 @@
 .grecaptcha-badge {
     display:none !important;
 }
+
+.postTitle {
+    margin-bottom: 0.3em;
+}
+
+.publishDate {
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
