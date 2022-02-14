@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Random Friend Caller - Hima Tammineedi</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Random Friend Caller" />
+<meta property="og:description" content="The mental barrier to calling a friend randomly In the modern world, all your friends, no matter where in the world they are, are all just a single phone call or message away.
+Yet, despite this modern luxury, there can still be quite a mental barrier to actually picking up your phone and calling a friend randomly.
+You know they&#39;re a good friend who would actually probably enjoy having you call them, but you&#39;re still worried about whether they&#39;ll be busy, or if you&#39;re interrupting something." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://himat.github.io/projects/random_friend_caller/" />
+<meta property="article:published_time" content="2022-01-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-03T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Random Friend Caller"/>
+<meta name="twitter:description" content="The mental barrier to calling a friend randomly In the modern world, all your friends, no matter where in the world they are, are all just a single phone call or message away.
+Yet, despite this modern luxury, there can still be quite a mental barrier to actually picking up your phone and calling a friend randomly.
+You know they&#39;re a good friend who would actually probably enjoy having you call them, but you&#39;re still worried about whether they&#39;ll be busy, or if you&#39;re interrupting something."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://himat.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://himat.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://himat.github.io/css/custom.css" />
+	
+
+
+
+	
+	<script src="https://himat.github.io/js/main.js"></script>
+
+	      <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-recaptcha.js"></script>
+      <script src="https://emailoctopus.com/bundles/emailoctopuslist/js/1.6/form-embed.js"></script>
+      <link
+        rel="stylesheet"
+        href="https://emailoctopus.com/bundles/emailoctopuslist/css/1.6/form.css"
+      />
+
+</head>
+
+  <body>
+    <div class="container wrapper">
+      <div class="header">
+	<h1 class="site-title"><a href="https://himat.github.io/">Hima Tammineedi</a></h1>
+	<div class="site-description"><h2>Welcome.</h2>
+			
+				
+			
+		
+
+        <nav class="nav">
+            <ul class="flat">
+                
+                <li>
+                    <a href="/questions/"></a>
+                </li>
+                
+                <li>
+                    <a href="/posts">Posts</a>
+                </li>
+                
+                <li>
+                    <a href="/questions">Questions</a>
+                </li>
+                
+            </ul>
+        </nav>
+	</div>
+    <hr />
+</div>
+
+      <h1 class="postTitle">Random Friend Caller</h1>
+      <div class="postFrontMatter">
+        Published: Jan 3, 2022
+      </div>
+      <div class="postFrontMatter">
+        Project Status: Completed
+      </div>
+      <h2 id="the-mental-barrier-to-calling-a-friend-randomly">The mental barrier to calling a friend randomly</h2>
+<p>In the modern world, all your friends, no matter where in the world they are, are all just a single phone call or message away.</p>
+<p>Yet, despite this modern luxury, there can still be quite a mental barrier to actually picking up your phone and calling a friend randomly.</p>
+<p>You know they're a good friend who would actually probably enjoy having you call them, but you're still worried about whether they'll be busy, or if you're interrupting something.</p>
+<p>In reality though, your friend will still enjoy that you called them, and if they're busy at that time, they just won't pick up. But it's not like they'll hate you for calling them&hellip;</p>
+<p>And for others, even though they know they're being irrational, they still can't seem to make the effort to call that friend.</p>
+<p>Others, still, always default to pre-planning a call with a friend. This works, but do you really need to schedule a time to call a friend on your calendar all the time?</p>
+<p>As you can imagine, I have this problem sometimes where I already know a friend would be receptive if I randomly called them, and yet I don't make the time actively to do it.</p>
+<h2 id="enter-the-button">Enter, the button</h2>
+<p>To help alleviate this issue, I decided to make a big, red button that always sits on my desk that I can press whenever I have some time and I'm not doing anything with it, and upon pressing the button, it will call a random friend.</p>
+<p>A random friend?? Isn't there a good chance they might be busy. What if you call them while they're working during the day? What if they're in a different time zone, you don't want to call them in the middle of the night in their time right?</p>
+<p>Correct! And all of that has been thought through and taken care of. For each friend that I entered into my button's system, I put down the time ranges (in their timezone) for each day of the week that I expect them to be free usually. So for a friend in the UK who I know works at a company during the day, I might put down that they're free 7pm-11pm UK time.</p>
+<p>And when I press the button, it will first filter to get the set of all people who are currently available. So if I call when it's 11:30pm UK time, my friend won't be considered for calling at all.
+Out of the set of possibly free people, the button then chooses any one of them uniformly randomly.</p>
+<p>What if I tend to press the button at a certain time every day, and there's only one person available at that time usually? What if I call the same person randomly 3 days in a row?
+To handle that, I have a recent call buffer time, configurable per person, and so if for person X, the buffer time is 2 weeks, the button will not choose them to call again if they were called within the last 2 weeks already.</p>
+  <video controls autoplay muted loop>
+    <!-- NOTE: TODO: move away from hugo to using nextjs since trying to reference a media asset from HTML in hugo markdown was a nightmare, and I ended up having to upload it to gdrive to finally have a place to host the video from  -->
+      <source src="https://drive.google.com/uc?export=download&id=1z9d2B6aikLph3nMJ-yUS038NYM6u57qk" type='video/webm'>
+  </video>
+<h2 id="the-system">The system</h2>
+<p>The button is a game show buzzer button I found online (it needs to be big to make me want to press it even more!), and it's connected to a Raspberry Pi, which upon pressing the button communicates to a server running on my laptop. The server will then call the friend on Messenger.</p>
+<p>I'm also looking into adding support for calling friends who I only have on other platforms like via phone number, Telegram, or WhatsApp, but Messenger was the easiest to start with since I could create a Puppetteer scraper to open the browser and call them from there.</p>
+
+      <hr class="margin-top" />
+      <div
+  class="emailoctopus-form-wrapper emailoctopus-form-centered null email-subscribe-form-wrapper"
+  style="
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(26, 26, 26);
+  "
+>
+  <div class="email-subscribe">Receive email notifications for new posts</div>
+  <div class="emailoctopus-success-message"></div>
+  <div class="emailoctopus-error-message"></div>
+  <form
+    action="https://emailoctopus.com/lists/202cfeb0-7d25-11eb-a3d0-06b4694bee2a/members/embedded/1.3s/add"
+    method="post"
+    data-message-success="Thanks for subscribing!"
+    data-message-missing-email-address="Your email address is required."
+    data-message-invalid-email-address="Your email address looks incorrect, please try again."
+    data-message-bot-submission-error="This doesn't look like a human submission."
+    data-message-consent-required="Please check the checkbox to indicate your consent."
+    data-message-invalid-parameters-error="This form has missing or invalid fields."
+    data-message-unknown-error="Sorry, an unknown error has occurred. Please try again later."
+    class="emailoctopus-form email-signup-form"
+    data-sitekey="6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6"
+  >
+    <div class="emailoctopus-form-row email-form-row">
+      <input
+        id="field_0"
+        name="field_0"
+        type="email"
+        placeholder="Email address"
+        required="required"
+      />
+    </div>
+    <div aria-hidden="true" class="emailoctopus-form-row-hp">
+      <input
+        type="text"
+        name="hpc4b27b6e-eb38-11e9-be00-06b4694bee2a"
+        tabindex="-1"
+        autocomplete="nope"
+      />
+    </div>
+    <div class="emailoctopus-form-row-subscribe">
+      <input type="hidden" name="successRedirectUrl" />
+      <button
+        type="submit"
+        style="
+          background-color: rgb(224, 224, 224);
+          color: rgb(0, 0, 0);
+          font-family: inherit;
+        "
+      >
+        Subscribe
+      </button>
+    </div>
+  </form>
+</div>
+
+    </div>
+    <div class="footer wrapper">
+	<nav class="nav">
+		<div>
+             
+
+            <nav class="nav social">
+                <ul class="flat"></ul>
+            </nav>
+
+            
+        </div>
+	</nav>
+</div>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-156951978-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
