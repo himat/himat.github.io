@@ -4,64 +4,44 @@
     <title>Hima Tammineedi</title>
     <link>https://himat.github.io/</link>
     <description>Recent content on Hima Tammineedi</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://himat.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://himat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://himat.github.io/questions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://himat.github.io/questions/</guid>
-      <description>Questions I&#39;m still thinking about:
- It is very hard to change a city. But, I believe there are transportation methods we haven&#39;t conceived of yet that will benefit from future restructurings of our cities. So, how can we make physical infrastructure more fluid? What are the decades-long experiments I can do myself that would be useful to humanity? There are definitely a lot of things that would be hard to convince enough people to try over decades, so even just a few people doing them might be useful.</description>
+      <description>Questions I&amp;rsquo;m still thinking about:&#xA;It is very hard to change a city. But, I believe there are transportation methods we haven&amp;rsquo;t conceived of yet that will benefit from future restructurings of our cities. So, how can we make physical infrastructure more fluid? What are the decades-long experiments I can do myself that would be useful to humanity? There are definitely a lot of things that would be hard to convince enough people to try over decades, so even just a few people doing them might be useful.</description>
     </item>
-    
     <item>
       <title>Visual Physical Phone Book</title>
       <link>https://himat.github.io/projects/visual_phone_book/</link>
       <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://himat.github.io/projects/visual_phone_book/</guid>
-      <description>One reason I prefer FB Messenger (or any other social messaging app like Whatsapp, Telegram, etc.) over texting someone with the default phone texting app is because in Messenger, when I go to message someone, I see their great face looking back at me in their profile picture!
-If I open my texting app to text or call someone instead, then usually they will just have empty circles because I&#39;m supposed to manually add a picture for them.</description>
+      <description>One reason I prefer FB Messenger (or any other social messaging app like Whatsapp, Telegram, etc.) over texting someone with the default phone texting app is because in Messenger, when I go to message someone, I see their great face looking back at me in their profile picture!&#xA;If I open my texting app to text or call someone instead, then usually they will just have empty circles because I&amp;rsquo;m supposed to manually add a picture for them.</description>
     </item>
-    
     <item>
       <title>Random Friend Caller</title>
       <link>https://himat.github.io/projects/random_friend_caller/</link>
       <pubDate>Mon, 03 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://himat.github.io/projects/random_friend_caller/</guid>
-      <description>The mental barrier to calling a friend randomly In the modern world, all your friends, no matter where in the world they are, are just a single phone call or message away.
-Yet, despite this modern luxury, there can still be quite a mental barrier to actually picking up your phone and calling a friend randomly.
-You know they&#39;re a good friend who would actually probably enjoy having you call them, but you&#39;re still worried about whether they&#39;ll be busy, and if you&#39;re interrupting something.</description>
+      <description>The mental barrier to calling a friend randomly In the modern world, all your friends, no matter where in the world they are, are just a single phone call or message away.&#xA;Yet, despite this modern luxury, there can still be quite a mental barrier to actually picking up your phone and calling a friend randomly.&#xA;You know they&amp;rsquo;re a good friend who would actually probably enjoy having you call them, but you&amp;rsquo;re still worried about whether they&amp;rsquo;ll be busy, and if you&amp;rsquo;re interrupting something.</description>
     </item>
-    
     <item>
       <title>Life Quests, not Goals</title>
       <link>https://himat.github.io/posts/life_quests_not_goals/</link>
       <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://himat.github.io/posts/life_quests_not_goals/</guid>
-      <description>Some people say they have goals that they want to accomplish in life.
-I, however, have goals and quests.
-I&#39;ll explain what quests are, but I would recommend reevaluating your goals and considering turning some of them into quests. If you adopt this framing of quests and goals, then you might be able to better approach some of the things you want to do in life.
-This quests and goals mindset is something I thought of in the past few years just because it seemed natural for me to think of things in this way.</description>
+      <description>Some people say they have goals that they want to accomplish in life.&#xA;I, however, have goals and quests.&#xA;I&amp;rsquo;ll explain what quests are, but I would recommend reevaluating your goals and considering turning some of them into quests. If you adopt this framing of quests and goals, then you might be able to better approach some of the things you want to do in life.&#xA;This quests and goals mindset is something I thought of in the past few years just because it seemed natural for me to think of things in this way.</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://himat.github.io/values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://himat.github.io/values/</guid>
-      <description>These are the values, principles, and beliefs of my life that my subconscious mind has repeated so often that my conscious mind could finally notice and codify them.  Creation is everything. I must always be changing the things around me, never preserving them.  Love is the most powerful emotion in the world - I will promote love. Stagnation is death. Without me actively doing/starting anything, nothing will move forward.</description>
+      <description>These are the values, principles, and beliefs of my life that my subconscious mind has repeated so often that my conscious mind could finally notice and codify them. Creation is everything. I must always be changing the things around me, never preserving them. Love is the most powerful emotion in the world - I will promote love. Stagnation is death. Without me actively doing/starting anything, nothing will move forward. Behavior = f(character, environment).</description>
     </item>
-    
   </channel>
 </rss>
